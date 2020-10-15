@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 14 21:27:13 2020
+# Process ID: 1016
+# Current directory: C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.runs/synth_1
+# Command line: vivado.exe -log sseg1_bcd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sseg1_bcd.tcl
+# Log file: C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.runs/synth_1/sseg1_bcd.vds
+# Journal file: C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sseg1_bcd.tcl -notrace

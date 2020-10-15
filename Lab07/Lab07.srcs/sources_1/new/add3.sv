@@ -26,7 +26,7 @@ module add3(
     );
     always @* 
     if (num > 4)
-        numout = num + 3 ;
+        numout = num + 4'b0011 ;
     else 
        numout = num ;
 

@@ -33,16 +33,16 @@ module dd6b(
    
     add3 C1 (
     .num({1'b0 , B[5:3]}), 
-    .numout({tens[2], c1_out})
+    .numout({tens[2], c1_out[2:0]})
     );
     
     add3 C2(
-    .num({c1_out, B[2]}), 
-    .numout({tens[1], c2_out})
+    .num({c1_out[2:0], B[2]}), 
+    .numout({tens[1], c2_out[2:0]})
     );
     
      add3 C3(
-    .num({c2_out, B[1]}), 
+    .num({c2_out[2:0], B[1]}), 
     .numout({tens[0], ones[3:1]})
     );
     

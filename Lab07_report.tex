@@ -62,28 +62,50 @@
 
 \title{ELC 2137 Lab \07: Binary Coded Decimal }
 \author{Spencer Stinson}
-
 \maketitle
-
-
 \section*{Summary}
+In this lab experiment, we learned how to use the double dabble method to convert from hex to BCD values. This method can be implemented by using multiple instances of adders. To finish this lab, we had to implement this 11 bit BCD decoder, as well as our 7 segment design fro mthe previous lab. 
 
-Type the summary of your experiment and results here.  
+\section*{Code}\\
 
-
-\section*{Q\&A}
-
-Answer questions posed in the lab assignment here.
-
-
+\Verilog[caption= add3 code ]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/add3.sv}
+\Verilog[caption= double dabble 6 bit code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd6b.sv}
+\Verilog[caption= double dabble 11 bit code ]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv}
+\Verilog[caption=7 segment BCD code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/sseg1_bcd.sv}
+\Verilog[caption= testbench for add3 code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sim_1/new/add3_testbench.sv}
+\Verilog[caption= testbench for double dabble 6 bit code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sim_2/new/dd6b_testbench_.sv}
+\Verilog[caption = testbench for double dabble 11 bit]{C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sim_3/new/dd11b_testbench.sv}
 \section*{Results}
 
 In this section, put your simulation waveforms, results tables, pictures of hardware, and any other required items.
-
-
-\section*{Code}
-
-Include all of the code you wrote or modified here.
+\begin{figure}
+	\includegraphics[width= \textwidth]{basys1.png}
+	\caption{Basys board running 7 segment on first display }\label{fig:Basys1}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{basys2.png}
+	\caption{Basys board running 7 segment on second display }\label{fig:Basys2}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{dd6bsc.png}
+	\caption{waveform for 6-bit}\label{fig:dd6b}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{add3sc.png}
+	\caption{waveform for add3}\label{fig:add3}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{dd11bsc.png}
+	\caption{waveform for 11-bit}\label{fig:dd11b}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{ERT.png}
+	\caption{Estimated Results Table }\label{fig:ERT}
+\end{figure}
+\begin{figure}
+	\includegraphics[width= \textwidth]{11-bitcircuit.png}
+	\caption{11 bit circuit drawing}\label{fig:11bitcircuit}
+\end{figure}\\
 
 
 \end{document}
